@@ -33,6 +33,8 @@ public class DataReader {
          * Params:
          * message: Passed message that will be displayed before reading the number
          */
+        System.out.println(message);
+        scan.nextLine();
         String text = scan.nextLine();
 
         return text;
